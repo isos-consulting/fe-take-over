@@ -75,7 +75,7 @@ npx create-react-app [프로젝트명] --template typescript
 
 아래와 같이 구성이 완료되면 성공입니다.
 
-![CRA(Create-React-App) + typescript 명령 후 완료된 사진](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6674c3dc-b0f2-4985-8729-05512f2f8567/Untitled.png)
+![CRA(Create-React-App) + typescript 명령 후 완료된 사진](https://github.com/isos-consulting/feto/assets/49608580/18d85a91-3789-4e64-b14f-74926ac72fef)
 
 CRA(Create-React-App) + typescript 명령 후 완료된 사진
 
