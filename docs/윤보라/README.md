@@ -2,6 +2,7 @@
 - [ESLint + Prettier](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/ESLint%20%2B%20Prettier.md)
 - [Storybook](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/Storybook.md)
 - [Testing Library](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/Testing%20Library.md)
+- [Typescript](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/Typescript.md)
 - React
 - Visual Studio Code
 - SE
