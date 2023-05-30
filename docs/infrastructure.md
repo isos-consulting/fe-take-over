@@ -1,7 +1,7 @@
 # 사내 웹 서버 구성
 ![사내 웹 서버 구성도](https://github.com/isos-consulting/feto/assets/49608580/1038eb46-49f5-40a9-accb-819ac1282cf8)
 
-서버 정보
+## 서버 정보
 ``` json
 [
    {
