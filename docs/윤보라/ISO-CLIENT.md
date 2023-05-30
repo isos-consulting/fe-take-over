@@ -175,7 +175,7 @@ React 프로젝트의 모든 라이브러리 정보는 package.json 파일을 �
 
 데이터 그리드의 관한 글은 하위 페이지를 참조하세요.
 
-[DataGrid](https://www.notion.so/DataGrid-e4ad24d5e3734c76b181a642eaaf12f3)
+[DataGrid](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/DataGrid.md)
 
 # 문제점
 
