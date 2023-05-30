@@ -1,5 +1,5 @@
 # 윤보라 목록
-- ESLint + Prettier
+- [ESLint + Prettier](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/ESLint%20%2B%20Prettier.md)
 - Storybook
 - Testing Library
 - React
