@@ -2,11 +2,13 @@
 웹 브라우저에서 동작하는 스마트 팩토리 MES 애플리케이션
 
 ## 애플리케이션 개발 주요 라이브러리 구성
-- React
-- Antd
-- Chartjs
+웹 FE 개발을 하기 위해서 아래 라이브러리의 사용법을 숙지해야 함
+- react
+- antd
+- chartjs
 - formik
 - tui-grid
+- typescript
 
 ## 애플리케이션 이슈 목록
 이 프로젝트의 이슈는 시간이 지남에 따라 많은 변경이 있었음(`jira → notion → github`)
