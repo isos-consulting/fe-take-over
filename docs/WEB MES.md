@@ -13,9 +13,9 @@
 - [jira](https://iwork.atlassian.net/jira/software/projects/IC/boards)
 - [notion](https://www.notion.so/199a4f2a831e4bfea0dc93ac80455ea3)
 - [github](https://github.com/isos-consulting/WEB-MES-CLIENT/issues)
+- [excel](https://github.com/isos-consulting/feto/files/11596635/20230410_WEB_MES.xlsx)
 
 ### 최근 다룰 이슈
 - react typescript 의존성 설치한 후 발생하는 타입 에러 수정해야 함
 - CUD API를 요청하는 공통 함수를 사용하지 않는 방법을(`saveGridData → MESService`) 적용 중임
 - `template`화면의(1레벨 그리드, 2레벨 그리드, 3레벨 그리드...등) 커스터마이즈를 유연하게 할 수 있어야 함
-- 
