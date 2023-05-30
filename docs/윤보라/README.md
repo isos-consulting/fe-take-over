@@ -3,7 +3,7 @@
 - [Storybook](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/Storybook.md)
 - [Testing Library](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/Testing%20Library.md)
 - [Typescript](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/Typescript.md)
-- React
+- [React](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/React.md)
 - Visual Studio Code
 - SE
 - ISOS-UI 프로젝트
