@@ -21,5 +21,6 @@
 - `template`화면의(1레벨 그리드, 2레벨 그리드, 3레벨 그리드...등) 커스터마이즈를 유연하게 할 수 있어야 함
 
 ### 기타
-![화면별 데이터 그리드 개수를 정리함](https://github.com/isos-consulting/feto/assets/49608580/ea66357d-006a-4964-987c-71054a3b3f87)
+![화면별 데이터 그리드 개수를 정리함1](https://github.com/isos-consulting/feto/assets/49608580/ad81300f-d97d-4240-a4c5-a7fd694bed2c)
+![화면별 데이터 그리드 개수를 정리함2](https://github.com/isos-consulting/feto/assets/49608580/ea66357d-006a-4964-987c-71054a3b3f87)
 
