@@ -4,4 +4,4 @@
 - [웹 사내 인프라 구성](https://github.com/isos-consulting/feto/blob/main/docs/INFRASTRUCTURE.md)
 - [WEB MES](https://github.com/isos-consulting/feto/blob/main/docs/WEB%20MES.md)
 - [DMS](https://github.com/isos-consulting/feto/blob/main/docs/DMS.md)
-- HNS 하이텍(이건 김대한 대리가 작업하고 인수인계도 안해줌)
+- HNS 하이텍(이 프로젝트는 김대한 대리가 작업하고 인수인계도 안해줌, 고로 전달할 내용이 없음..)
