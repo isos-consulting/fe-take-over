@@ -3,8 +3,7 @@
 # 개요
 
 스토리북은 UI 컴포넌트를 독립적으로 구현하고 테스트 할 수 있는 도구입니다. 개발된 UI를 보여주는 문서로 사용되기도 합니다. 프로젝트가 복잡하다면 스토리북을 사용하여 구성요소를 분리하는 방법도 도움 됩니다.
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b116ef68-24db-4e89-ab6a-eccf5f2f8c8e/Untitled.png)
+![Untitled](https://github.com/isos-consulting/feto/assets/49608580/e4f80b6f-5c51-42a9-a3b6-9013adbc660d)
 
 ## 특징
 
@@ -219,7 +218,7 @@ yarn storybook
 
 환경 구축을 마무리하면 보통 아래의 사진 같은 환경으로 구성됩니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6c8482f-421b-4711-a86c-c83b33a96793/Untitled.png)
+![Untitled](https://github.com/isos-consulting/feto/assets/49608580/08b86f6c-ed47-4ac7-aa95-3feb064e2d5e)
 
 항목을 하나씩 살펴보겠습니다.
 
