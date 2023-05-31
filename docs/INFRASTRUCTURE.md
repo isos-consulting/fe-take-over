@@ -39,3 +39,6 @@
 개발자가 최신 소스 코드를 Git 시스템에(AWS CodeCommit, Github) 업로드 → Jenkins가 최신 소스 코드를 인식 → 웹 서버에(iso-client, DMS 등) 소스 코드 다운로드 실행 프로그램 빌드 명령 실행
 
 ![흐름도](https://github.com/isos-consulting/feto/assets/49608580/48a2cc14-03d6-4322-9223-9c8241ca7250)
+
+### Jenkins에 대해서
+Jenkins는 개발자가 수정한 소스 코드를 서버에 자동으로 배포하기 위해서 설치한 도구입니다(애플리케이션).
