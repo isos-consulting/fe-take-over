@@ -37,5 +37,6 @@
 
 ### 사내 프로그램 배포 흐름
 개발자가 최신 소스 코드를 Git 시스템에(AWS CodeCommit, Github) 업로드 → Jenkins가 최신 소스 코드를 인식 → 웹 서버에(iso-client, DMS 등) 소스 코드 다운로드 실행 프로그램 빌드 명령 실행
+
 ![흐름도](https://github.com/isos-consulting/feto/assets/49608580/2bb98c0a-c7a5-491c-9a16-60f45104f7d9)
 
