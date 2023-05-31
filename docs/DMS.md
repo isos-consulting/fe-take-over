@@ -11,5 +11,6 @@ Paperless 서비스를 제공하기 위한 문서 관리 애플리케이션
 
 ## 개발 참고 문서
 이 프로젝트 개발에 필요한 자료는 OpenKM 문서를 참고해주세요. 환경 구축에서 API 사용에 관한 모든 자료가 있습니다.
+
 `❗ OpenKM 문서는 영어로 표기되어 있습니다`
 - [Development](https://docs.openkm.com/kcenter/view/okm-6.3-com/development.html)
