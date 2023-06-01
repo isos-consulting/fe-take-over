@@ -76,6 +76,7 @@ Jenkins는 개발자가 수정한 소스 코드를 서버에 자동으로 배포
 ![tabs](https://github.com/isos-consulting/feto/assets/49608580/04570e75-8f2e-4b30-970d-89e5d51c13c9)
 
 4. 소스 코드 관리에서 자동 배포를 하기 위한 소스 코드 저장소 정보를 확인합니다.
+
 `❗ 정보 유출을 피하기 위해 저장소 정보는 올리지 않았습니다`
 
 ![SCM](https://github.com/isos-consulting/feto/assets/49608580/dd66f5ce-f9d3-4ddd-a9ec-5b4c158459fa)
@@ -90,11 +91,13 @@ Jenkins는 개발자가 수정한 소스 코드를 서버에 자동으로 배포
 ![build environment](https://github.com/isos-consulting/feto/assets/49608580/42097c9a-2b0f-469c-87cb-f315477e74ff)
 
 8. Build Steps > Execute Shell > command의 입력 값은 최신 소스 코드를 빌드하고 웹 서버에 자동으로 배포하는 명령어 입니다.
+
 `❗ 정보 유출을 피하기 위해 command 코드는 올리지 않았습니다`
 
 ![commands](https://github.com/isos-consulting/feto/assets/49608580/2489ddf6-ae82-4043-93cf-f412e3e828e8)
 
 9. 빌드 후 조치 > Discord Notifier > Webhook URL의 입력 값은 빌드 결과를 `discord` 애플리케이션에 알림을 줍니다.
+
 `❗ 정보 유출을 피하기 위해 Webhook URL은 올리지 않았습니다`
 
 ![discord webhook](https://github.com/isos-consulting/feto/assets/49608580/73691952-67d9-4fb2-9c80-6720fcf97176)
@@ -113,6 +116,7 @@ Jenkins는 개발자가 수정한 소스 코드를 서버에 자동으로 배포
 ![node list](https://github.com/isos-consulting/feto/assets/49608580/cf4c4e37-041a-4d76-98a5-4ee44133c9d8)
 
 4. 만약 연결이 끊겨 있으면 목록에서 서버를 선택한 뒤 나타나는 명령어를 원격 서버에서 접속해서(`ssh 혹은 seetrol`) 실행해주세요.
+
 `❗ 아래 그림은 정상 연결이 되어 있는 상태입니다..`
 
 ![node](https://github.com/isos-consulting/feto/assets/49608580/596c8a17-fb47-4f74-a541-b9612c63f4da)
