@@ -11,7 +11,7 @@
 - typescript
 
 ## 애플리케이션 이슈 목록
-이 프로젝트의 이슈는 시간이 지남에 따라 많은 변경이 있었음(`jira → notion → github + excel`)
+이 프로젝트의 이슈는 시간이 지남에 따라 많은 변경이 있었음(`jira → notion → (github + excel)`)
 - [jira](https://iwork.atlassian.net/jira/software/projects/IC/boards)
 - [notion](https://www.notion.so/199a4f2a831e4bfea0dc93ac80455ea3)
 - [github](https://github.com/isos-consulting/WEB-MES-CLIENT/issues)
