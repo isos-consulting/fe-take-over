@@ -4,4 +4,4 @@
 - [사내 인프라 구성](https://github.com/isos-consulting/feto/blob/main/docs/INFRASTRUCTURE.md)
 - [WEB MES](https://github.com/isos-consulting/feto/blob/main/docs/WEB%20MES.md)
 - [DMS](https://github.com/isos-consulting/feto/blob/main/docs/DMS.md)
-- HNS 하이텍(전임자에게 받은 인수인계 자료 없는 상태)
+- HNS 하이텍(내가 프로젝트 담당자가 아니었고, 전임자에게 받은 인수인계 자료 없는 상태)
