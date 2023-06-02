@@ -184,7 +184,7 @@
 |Area|area|가운데 정렬||
 |이물종류|reject_type_nm|가운데 정렬||
 |확률(%)|probability|가운데 정렬||
-|정답|real_result|가운데 정렬|LOV로 선택할 수 있어야됨 `[{UI 텍스트: 양품, 값: true}, UI 텍스트: 이물, 값: false]`|
+|정답|real_result|가운데 정렬|LOV로 데이터 수정할 수 있음 `[{UI 텍스트: 양품, 값: true}, UI 텍스트: 이물, 값: false]`|
 
 ## 왜 이렇게 설명이 부족하냐면..
 저는 프로젝트 담당자가 아니었습니다.
