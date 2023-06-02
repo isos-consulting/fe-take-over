@@ -9,13 +9,16 @@
 ![nginx설치경로](https://github.com/isos-consulting/feto/assets/49608580/cc13dafa-2381-482d-b028-e3cd2f3dd50d)
 
 ## 프로그램 소스코드 저장소 경로
+"사내 SVN 저장소 URL"은 회사 내부에서 사용하는 SVN 주소 유출을 피하기 위해서 가짜 이름을 사용했습니다.
+
 `svn://{사내SVN 저장소 URL}/에이치엔스하이테크/VISION_IMG_AI_HSHIGHTECH`
 
 ## 개발 라이브러리 주요 목록
-- react
-- tui-grid
+화면(웹 클라이언트) 개발을 하기 위해서 "*" 표시된 라이브러리의 사용을 알아야합니다.
+- react*
+- tui-grid*
+- axios*
 - chartjs
-- axios
 
 ## 고객사에 대한 정보
 고객사의 사업 제품은 ACF 필름입니다.
