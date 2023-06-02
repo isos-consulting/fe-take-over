@@ -55,6 +55,89 @@
   - 조회: 이미 분석된 이미지의 결과를 확인(조회 기간의 영향을 받음)
   - 학습: 사진 결과를 판별하는 알고리즘을 적용
 
+## 애플리케이션 정보
+`❗ 만약 웹 애플리케이션을 Visual Basic이나 다른 언어로 작성할 경우 아래 내용을 참고해주세요.`
+
+### API 목록
+#### Accuracy 조회
+```
+{
+  URL: http://{API서버URL}/vision-analysis/accuracy,
+  METHOD: GET
+}
+```
+#### 메인 화면 데이터 그리드 조회
+```
+{
+  URL: http://{API서버URL}/vision-analysis/result-total
+  METHOD: GET
+  QUERYSTRING: {start_date: 입력폼 시작일 데이터("YYYY-MM-DD"), end_date: 입력폼 종료일 데이터 "YYYY-MM-DD"}
+}
+```
+#### 분석 조회
+```
+{
+  URL: http://{API서버URL}/vision-analysis/execute,
+  METHOD: GET,
+  QUERYSTRING: {start_date: 입력폼 시작일 데이터("YYYY-MM-DD"), end_date: 입력폼 종료일 데이터 "YYYY-MM-DD"}
+}
+```
+#### 분석 검사 조회
+```
+{
+  URL: http://{API서버URL}/vision-analysis-check/execute,
+  METHOD: GET,
+}
+```
+#### 학습 검사 조회
+```
+{
+  URL: http://{API서버URL}/learning-check/vision,
+  METHOD: GET,
+}
+```
+#### 학습 조회
+```
+{
+  URL: http://{API서버URL}/learning/vision,
+  METHOD: GET,
+}
+```
+#### 모달 화면 데이터 그리드 조회
+```
+{
+  URL: http://{API서버URL}/vision-analysis/result-detail,
+  METHOD: GET,
+  QUERYSTRING: {
+    reg_date: 사용자가 선택한 메인 데이터 그리드 행의 reg_date,
+    log_no: 사용자가 선택한 메인 데이터 그리드 행의 lot_no,
+    cut_no: 사용자가 선택한 메인 데이터 그리드 행의 cut_no,
+    reel_no: 사용자가 선택한 메인 데이터 그리드 행의 reel_no,
+    seq: 사용자가 선택한 메인 데이터 그리드 행의 seq,
+  }
+}
+```
+#### 모달 화면 데이터 그리드 수정
+```
+{
+  URL: http://{API서버URL}/vision-analysis/real-result,
+  METHOD: PATCH,
+  BODY: [{
+    idx: 변경 모달 데이터 그리드 행의 idx,
+    reel_result: 변경 모달 데이터 그리드 행의 reel_result가 "true"면(문자열) true(boolean), 아니면 false(boolean),
+    file_path: 변경 모달 데이터 그리드 행의 file_path,
+    file_nm: 변경 모달 데이터 그리드 행의 file_nm,
+    analysis_result: 변경 모달 데이터 그리드 행의 analysis_result가 "양품"이면(문자열) true(boolean), 아니면 false(boolean)
+  } x 모달 데이터 그리드에서 변경 수만큼 반복 ]
+}
+```
+
+### 화면 구성
+#### 조회 폼
+- **시작일**
+  - reg_date
+- 
+
 
 ## 왜 이렇게 설명이 부족하냐면..
 저는 프로젝트 담당자가 아니었습니다.
