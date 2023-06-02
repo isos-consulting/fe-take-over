@@ -71,7 +71,13 @@
 {
   URL: http://{API서버URL}/vision-analysis/result-total
   METHOD: GET
-  QUERYSTRING: {start_date: 입력폼 시작일 데이터("YYYY-MM-DD"), end_date: 입력폼 종료일 데이터 "YYYY-MM-DD"}
+  QUERYSTRING: {
+    start_date: 입력폼 lastDate 데이터("YYYY-MM-DD"),
+    end_date: 입력폼 currendDate 데이터("YYYY-MM-DD"),
+    prod_nm: 입력폼 prodNm이 ""이면(공백 문자열) null, 아니면 입력폼 prodNm값,
+    lot_no: 입력폼 lotNo이 ""이면(공백 문자열) null, 아니면 입력폼 lotNo값
+    
+  }
 }
 ```
 #### 분석 조회
@@ -79,7 +85,10 @@
 {
   URL: http://{API서버URL}/vision-analysis/execute,
   METHOD: GET,
-  QUERYSTRING: {start_date: 입력폼 시작일 데이터("YYYY-MM-DD"), end_date: 입력폼 종료일 데이터 "YYYY-MM-DD"}
+  QUERYSTRING: {
+    start_date: 입력폼 lastDate 데이터("YYYY-MM-DD"),
+    end_date: 입력폼 currendDate 데이터("YYYY-MM-DD")
+  }
 }
 ```
 #### 분석 검사 조회
@@ -134,9 +143,14 @@
 
 ### 화면 구성
 #### 조회 폼
-- **시작일**
-  - reg_date
-- 
+|한글명|영문명|기본값|데이터타입|
+| --- | --- | --- | --- |
+|시작일|lastDate|오늘 -7일|"YYYY-MM-DD"|
+|종료일|currendDate|오늘|"YYYY-MM-DD"|
+|품목명|prodNm|""|문자열|
+|로트번호|lotNo|""|문자열|
+
+#### 데이터 그리드
 
 
 ## 왜 이렇게 설명이 부족하냐면..
