@@ -149,9 +149,42 @@
 |종료일|currendDate|오늘|"YYYY-MM-DD"|
 |품목명|prodNm|""|문자열|
 |로트번호|lotNo|""|문자열|
-
-#### 데이터 그리드
-
+#### 메인 화면 데이터 그리드
+|한글명|영문명|데이터 정렬|
+| --- | --- | --- |
+|검사일자|reg_date|가운데 정렬|
+|제품명|prod_nm|왼쪽 정렬|
+|폭|width|가운데 정렬|
+|길이|length|가운데 정렬|
+|두께|tickness|가운데 정렬|
+|LOT|lot_no|왼쪽 정렬|
+|cut no|cut_no|왼쪽 정렬|
+|릴|reel_no|왼쪽 정렬|
+|순번|seq|가운데 정렬|
+|비전검사기 검출수량|total_cnt|가운데 정렬|
+|AI예측 이물수량|ng_cnt|가운데 정렬|
+|0~100|first_degree|가운데 정렬|
+|100~200|sescond_degree|가운데 정렬|
+|200~300|third_degree|가운데 정렬|
+|300~400|fourth_degree|가운데 정렬|
+|400↑|fifth_degree|가운데 정렬|
+#### 모달 데이터 그리드
+|한글명|영문명|데이터 정렬|특징|
+| --- | --- | --- | --- |
+|검사일자|reg_date|왼쪽 정렬||
+|제품명|prod_nm|왼쪽 정렬||
+|폭|width|가운데 정렬||
+|길이|length|가운데 정렬||
+|두께|tickness|가운데 정렬||
+|LOT|lot_no|왼쪽 정렬||
+|cut no|cut_no|왼쪽 정렬||
+|릴|reel_no|왼쪽 정렬||
+|사진|file|가운데 정렬|화면에 사진이 보여야 됨|
+|AI 예측|analysis_result|가운데 정렬||
+|Area|area|가운데 정렬||
+|이물종류|reject_type_nm|가운데 정렬||
+|확률(%)|probability|가운데 정렬||
+|정답|real_result|가운데 정렬|LOV로 선택할 수 있어야됨 `[{UI 텍스트: 양품, 값: true}, UI 텍스트: 이물, 값: false]`|
 
 ## 왜 이렇게 설명이 부족하냐면..
 저는 프로젝트 담당자가 아니었습니다.
