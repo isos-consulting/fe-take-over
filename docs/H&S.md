@@ -132,11 +132,11 @@
   URL: http://{API서버URL}/vision-analysis/real-result,
   METHOD: PATCH,
   BODY: [{
-    idx: 변경 모달 데이터 그리드 행의 idx,
-    reel_result: 변경 모달 데이터 그리드 행의 reel_result가 "true"면(문자열) true(boolean), 아니면 false(boolean),
-    file_path: 변경 모달 데이터 그리드 행의 file_path,
-    file_nm: 변경 모달 데이터 그리드 행의 file_nm,
-    analysis_result: 변경 모달 데이터 그리드 행의 analysis_result가 "양품"이면(문자열) true(boolean), 아니면 false(boolean)
+    idx: 모달 데이터 그리드 변경된 행의 idx,
+    reel_result: 모달 데이터 그리드 변경된 행의 reel_result가 "true"면(문자열) true(boolean), 아니면 false(boolean),
+    file_path: 모달 데이터 그리드 변경된 행의 file_path,
+    file_nm: 모달 데이터 그리드 변경된 행의 file_nm,
+    analysis_result: 모달 데이터 그리드 변경된 행의 analysis_result가 "양품"이면(문자열) true(boolean), 아니면 false(boolean)
   } x 모달 데이터 그리드에서 변경 수만큼 반복 ]
 }
 ```
