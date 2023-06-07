@@ -1,6 +1,6 @@
 # 윤보라 인수인계 자료 목록
 
-이 폴더는 윤보라 대리가 작성한 인수 인계 자료 입니다.
+이 폴더는 윤보라 대리가 작성한 인수 인계 자료 입니다. 웹 개발할 때 참고 자료로 사용해주세요.
 
 - [ESLint + Prettier](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/ESLint%20%2B%20Prettier.md)
 - [Storybook](https://github.com/isos-consulting/fe-take-over/blob/main/docs/%EC%9C%A4%EB%B3%B4%EB%9D%BC/Storybook.md)
