@@ -34,3 +34,5 @@ OpenKM은 GPL2 라이센스가 적용되어 있습니다. ISOS-DMS 프로젝트�
   - 개발환경을 설정할 때 프로젝트 코드를 수정할 부분은 없습니다. 중요한 것은 톰캣 설정을 어떻게 잘 하는지가 핵심입니다.(몇 개의 폴더는 Symbolic Link를 사용해야 합니다. 참고하세요.)
 - [API 설명](https://docs.openkm.com/kcenter/view/okm-6.3-com/api-description.html)
 - [데이터베이스 설명](https://docs.openkm.com/kcenter/view/okm-6.3-com/database-description.html)
+- [DMS-SERVER](https://github.com/isos-consulting/feto/blob/main/docs/INFRASTRUCTURE.md#dms-server)
+  - DMS-SERVER가 최신 DB입니다. 항상 DMS-SERVER의 DB를 참고해서 스키마 작업을 해주세요.
