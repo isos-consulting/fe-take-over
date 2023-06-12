@@ -16,8 +16,9 @@
 
 <aside>
 💡 **유의사항**
-본 프로젝트는 [Parcel 번들러](https://ko.parceljs.org/getting_started.html)를 사용하고 있습니다.
-프로젝트를 시작하실려면 먼저 parcel 번들러를 설치해주세요.
+~~본 프로젝트는 [Parcel 번들러](https://ko.parceljs.org/getting_started.html)를 사용하고 있습니다.~~
+~~프로젝트를 시작하실려면 먼저 parcel 번들러를 설치해주세요.~~
+2022년 7월 이후 Vite 3로 변경되었습니다.
 
 Yarn:
 
