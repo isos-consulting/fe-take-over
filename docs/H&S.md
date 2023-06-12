@@ -137,7 +137,22 @@
     file_path: 모달 데이터 그리드 변경된 행의 file_path,
     file_nm: 모달 데이터 그리드 변경된 행의 file_nm,
     analysis_result: 모달 데이터 그리드 변경된 행의 analysis_result가 "양품"이면(문자열) true(boolean), 아니면 false(boolean)
-  } x 모달 데이터 그리드에서 변경 수만큼 반복 ]
+  } * 모달 데이터 그리드에서 변경 수만큼 반복 ]
+}
+```
+
+#### 메이 화면 데이터 그리드 삭제
+```
+{
+  URL: http://{API서버URL}/vision-analysis/execute,
+  METHOD: DELETE,
+  PARAMS: {
+    reg_date: 선택된 행의 reg_date,
+    cut_no: 선택된 행의 cut_no,
+    lot_no: 선택된 행의 lot_no,
+    reel_no: 선택된 행의 reel_no,
+    seq: 선택된 행의 seq
+  }
 }
 ```
 
